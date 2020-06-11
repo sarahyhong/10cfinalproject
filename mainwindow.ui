@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>686</width>
+    <height>354</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,108 +17,212 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>220</x>
-      <y>30</y>
-      <width>141</width>
-      <height>16</height>
+      <x>91</x>
+      <y>31</y>
+      <width>123</width>
+      <height>23</height>
      </rect>
     </property>
     <property name="text">
-     <string>Lab Simulation</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Lab Simulation&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>170</x>
-      <y>90</y>
-      <width>47</width>
-      <height>13</height>
+      <x>91</x>
+      <y>79</y>
+      <width>16</width>
+      <height>16</height>
      </rect>
     </property>
     <property name="text">
      <string/>
     </property>
    </widget>
-   <widget class="QLabel" name="label_3">
+   <widget class="QDialogButtonBox" name="buttonBox">
     <property name="geometry">
      <rect>
-      <x>140</x>
-      <y>260</y>
-      <width>101</width>
-      <height>141</height>
+      <x>209</x>
+      <y>248</y>
+      <width>156</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="standardButtons">
+     <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="good_job">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>280</y>
+      <width>111</width>
+      <height>16</height>
      </rect>
     </property>
     <property name="text">
      <string/>
     </property>
-    <property name="pixmap">
-     <pixmap>../../../../Pictures/Video Projects/Western-blot-experimental-steps1 (3).jpg</pixmap>
-    </property>
    </widget>
-   <widget class="QLabel" name="label_4">
+   <widget class="QWidget" name="">
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>160</y>
-      <width>61</width>
+      <x>91</x>
+      <y>98</y>
+      <width>73</width>
       <height>51</height>
      </rect>
     </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap>../../../../Pictures/Video Projects/Western-blot-experimental-steps1 (2).jpg</pixmap>
-    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../../../../Pictures/Video Projects/Western-blot-experimental-steps1 (2).jpg</pixmap>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="tissue">
+       <property name="text">
+        <string>Tissue</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
    </widget>
-   <widget class="QLabel" name="label_5">
+   <widget class="QWidget" name="">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>120</y>
-      <width>181</width>
-      <height>81</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap>../../../../Pictures/Video Projects/Western-blot-experimental-steps2 (2).jpg</pixmap>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_6">
-    <property name="geometry">
-     <rect>
-      <x>310</x>
-      <y>310</y>
-      <width>201</width>
+      <x>327</x>
+      <y>98</y>
+      <width>116</width>
       <height>101</height>
      </rect>
     </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap>../../../../Pictures/Video Projects/Western-blot-experimental-steps2 (3).jpg</pixmap>
-    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_4">
+     <item>
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../../../../Pictures/Video Projects/Western-blot-experimental-steps2 (4).jpg</pixmap>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="electrode_chamber">
+       <property name="text">
+        <string>Electrode Chamber</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
    </widget>
-   <widget class="QLabel" name="label_7">
+   <widget class="QWidget" name="">
     <property name="geometry">
      <rect>
-      <x>310</x>
-      <y>200</y>
-      <width>191</width>
-      <height>131</height>
+      <x>449</x>
+      <y>98</y>
+      <width>129</width>
+      <height>125</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_5">
+     <item>
+      <widget class="QLabel" name="label_7">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../../../../Pictures/Video Projects/Western-blot-experimental-steps2 (3).jpg</pixmap>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="tank">
+       <property name="text">
+        <string>Tank</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>209</x>
+      <y>98</y>
+      <width>86</width>
+      <height>83</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <item>
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../../../../Pictures/Video Projects/Western-blot-experimental-steps2 (2).jpg</pixmap>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="gel_casette">
+       <property name="text">
+        <string>Gel Casette</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>91</x>
+      <y>60</y>
+      <width>501</width>
+      <height>16</height>
      </rect>
     </property>
     <property name="text">
-     <string/>
+     <string>Click the components that you would combine in the first step of a Western blot. Press OK when done.</string>
     </property>
-    <property name="pixmap">
-     <pixmap>../../../../Pictures/Video Projects/Western-blot-experimental-steps2 (4).jpg</pixmap>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>91</x>
+      <y>155</y>
+      <width>101</width>
+      <height>87</height>
+     </rect>
     </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../../../../Pictures/Video Projects/Western-blot-experimental-steps1 (3).jpg</pixmap>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="lysate">
+       <property name="text">
+        <string>Lysate/Extracts</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
@@ -126,7 +230,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>686</width>
      <height>21</height>
     </rect>
    </property>
