@@ -13,3 +13,5 @@ The following will be my work log for the rest of the quarter:
 6/2-6/4 - I'm still having trouble with homework 2. I've been searching on google and watching some tutorials but none of them seem to give me the answer that I need. I think I might go back to working on the final project instead just to try to get something done, even if I can't really get anything to work.
 
 6/5-6/9 - I finally learned how to add an image onto Qt! I was struggling a lot with this but I finally figured it out. I think the next step would be to try to make these objects interact with each other somehow.
+
+6/10 - I had a lot of trouble trying to figure out how to make a label change into "Good Job!" when the user checks the right boxes and clicks OK. I will do some more research on how to do this tomorrow.
