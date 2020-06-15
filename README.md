@@ -15,3 +15,5 @@ The following will be my work log for the rest of the quarter:
 6/5-6/9 - I finally learned how to add an image onto Qt! I was struggling a lot with this but I finally figured it out. I think the next step would be to try to make these objects interact with each other somehow.
 
 6/10 - I had a lot of trouble trying to figure out how to make a label change into "Good Job!" when the user checks the right boxes and clicks OK. I will do some more research on how to do this tomorrow.
+
+6/11-6/14 - Unfortunately, I have not figured out how to make the "OK" box work. I thought I would have more time to finish the project but I didn't get the chance... I will definitely be working on this in my own time.
